@@ -1,42 +1,31 @@
-# British Airways Reviews Analysis
+# British Airways Reviews Analysis README
 
-### Project Overview
-This project analyzes British Airways reviews using Tableau to create an interactive dashboard. The dashboard visualizes average ratings across multiple metrics and trends over time.
+### Project Overview:
+This project provides an interactive analysis of British Airways customer reviews using Tableau.
 
 ### Tools Used:
-- **Tableau**: Interactive dashboard creation
-- **Datasets:**
-  - `ba_reviews.csv` (Reviews Data)
-  - `Countries.csv` (Country Mapping Data)
+- Tableau (for interactive dashboard creation)
+- CSV files: `ba_reviews.csv` and `Countries.csv`
 
-### Dataset Source
-- [BA Reviews Dataset on Kaggle](https://www.kaggle.com) *(Note: Add the exact Kaggle URL if applicable)*
+### Dataset Source:
+The datasets were obtained from the public repository of Mo Chen on GitHub:
+[Mo Chen's Tableau Portfolio Project](https://github.com/mochen862/tableau-end-to-end-portfolio-project)
 
-### Key Visualizations in Dashboard:
-- **Average Rating by Metric:** Overall, Cabin Staff, Entertainment, Food, Ground Service, Seat Comfort, and Value for Money.
-- **Average Ground Service by Month:** Line chart showing trends from March 2016 to October 2023.
-- **Average Ground Service by Country:** Map highlighting countries based on reviews.
-- **Average Ground Service by Aircraft:** Bar charts showing ratings and number of reviews by aircraft type.
+### Key Visualizations:
+- **Average Ground Service by Month**: Line chart displaying trends from March 2016 to October 2023.
+- **Average Ground Service by Country**: Map visualization of regional ratings.
+- **Average Ground Service by Aircraft**: Horizontal bar chart ranking aircraft types based on ratings and number of reviews.
+- **Metric Selector Filter:** Interactive filter to explore different review aspects such as Cabin Staff, Seat Comfort, and Entertainment.
 
-### Filters Implemented:
-- **Pick a Metric:** Select any service metric to view detailed insights.
-- **Month of Date:** View data between March 2016 to October 2023.
-- **Traveller Type:** Analyze ratings based on traveller categories.
-- **Seat Type, Aircraft, Continent:** Narrow results using multiple filters.
+### Insights:
+- Boeing 777-200 had the highest ground service rating (3.48) with 329 reviews.
+- Ground service ratings peaked around 2020 but declined post-pandemic.
+- Major regions contributing reviews were North America, Europe, and Asia.
 
-### Insights Gained:
-- The highest ground service rating was for the Boeing 777-200 (3.48), and the lowest was for the Boeing 747 (2.69).
-- The majority of reviews were for the Boeing 777 (263) and Boeing 777-200 (329).
-- Ground service ratings fluctuated from 2016 to 2023 with visible peaks in 2020.
+### Usage Instructions:
+1. **Open Dashboard:** Use `Dashboard.twbx` in Tableau to view the interactive charts.
+2. **Explore Filters:** Select metrics and adjust filters (month, seat type, aircraft) to derive insights.
+3. **Data Reference:** Use `ba_reviews.csv` for customer reviews and `Countries.csv` for mapping locations.
 
-### Project Guide and Inspiration:
-- Guided by **Mo Chen (YouTube)** for dashboard creation steps.
-
-### How to Open the Dashboard:
-1. Download the `.twbx` file.
-2. Open with **Tableau Desktop or Tableau Public**.
-
-### Additional Notes:
-- Ensure the dataset files are placed in the same directory as the Tableau workbook.
-- Adjust the dataset path if prompted while opening the `.twbx` file.
+This project was guided by Mo Chen (YouTube) and uses datasets from Mo Chen’s GitHub repository.
 
